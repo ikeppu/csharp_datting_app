@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  c_sharp_angular:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "80"

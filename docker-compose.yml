@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  c_sharp_angular:
+    image: ${DOCKER_REGISTRY-}csharpangular
+    build:
+      context: .
+      dockerfile: c_sharp_angular/Dockerfile

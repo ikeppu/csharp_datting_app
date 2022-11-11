@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1703.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c_sharp_angular", "c_sharp_angular\c_sharp_angular.csproj", "{4E09F71D-003D-4BF1-9C2B-E5EC6BDD48EF}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2AC8FB9D-5E9D-4DC5-BA4F-47AF19E7A268}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E09F71D-003D-4BF1-9C2B-E5EC6BDD48EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E09F71D-003D-4BF1-9C2B-E5EC6BDD48EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E09F71D-003D-4BF1-9C2B-E5EC6BDD48EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E09F71D-003D-4BF1-9C2B-E5EC6BDD48EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AC8FB9D-5E9D-4DC5-BA4F-47AF19E7A268}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AC8FB9D-5E9D-4DC5-BA4F-47AF19E7A268}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AC8FB9D-5E9D-4DC5-BA4F-47AF19E7A268}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AC8FB9D-5E9D-4DC5-BA4F-47AF19E7A268}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20D2965A-B728-4DC3-90C5-1F9A0BE69958}
+	EndGlobalSection
+EndGlobal
