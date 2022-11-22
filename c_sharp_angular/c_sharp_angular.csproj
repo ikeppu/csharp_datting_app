@@ -19,6 +19,8 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.25.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.11" />
   </ItemGroup>
 
   <ItemGroup>
@@ -34,11 +36,25 @@
     <None Remove="Microsoft.EntityFrameworkCore.Sqlite" />
     <None Remove="Data\" />
     <None Remove="Controllers\" />
+    <None Remove="DTOs\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Services\" />
+    <None Remove="System.IdentityModel.Tokens.Jwt" />
+    <None Remove="Microsoft.AspNetCore.Authentication.JwtBearer" />
+    <None Remove="Extensions\" />
+    <None Remove="Errors\" />
+    <None Remove="Middleware\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Data\" />
     <Folder Include="Controllers\" />
+    <Folder Include="DTOs\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Services\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Errors\" />
+    <Folder Include="Middleware\" />
   </ItemGroup>
     <Target Name="DebugEnsureNodeEnv" BeforeTargets="Build" Condition=" '$(Configuration)' == 'Debug' And !Exists('$(SpaRoot)node_modules') ">
     <!-- Ensure Node.js is installed -->
