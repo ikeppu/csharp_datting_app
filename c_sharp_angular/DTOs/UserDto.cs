@@ -7,6 +7,8 @@ namespace c_sharp_angular.DTOs
 
         public string Token { get; set; }
 
+        public string PhotoUrl { get; set; }
+
     }
 }
 

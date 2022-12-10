@@ -1,0 +1,13 @@
+﻿using System;
+namespace c_sharp_angular.Helpers
+{
+    public class CloudinarySettings
+    {
+        public string CloudName { get; set; }
+
+        public string ApiKey { get; set; }
+
+        public string ApiSecret { get; set; }
+    }
+}
+

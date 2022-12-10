@@ -1,0 +1,27 @@
+﻿using c_sharp_angular.Entities;
+
+namespace c_sharp_angular.Interfaces
+{
+    public class MessageDto
+    {
+        public int Id { get; set; }
+
+        public int SenderId { get; set; }
+
+        public string SenderUsername { get; set; }
+
+        public string SenderPhotoUrl { get; set; }
+
+        public int RecipientId { get; set; }
+
+        public string RecipientUsername { get; set; }
+
+        public string RecipientPhotoUrl { get; set; }
+
+        public string Content { get; set; }
+
+        public DateTime? DateRead { get; set; }
+
+        public DateTime MessageSent { get; set; }
+    }
+}

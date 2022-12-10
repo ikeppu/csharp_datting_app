@@ -16,7 +16,6 @@ namespace c_sharp_angular.Controllers
             _context = context;
         }
 
-
         [Authorize]
         [HttpGet("auth")]
         public ActionResult<string> GetSecret()
